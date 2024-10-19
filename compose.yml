@@ -1,0 +1,5 @@
+services:
+  uwsgi-nginx:
+    build: ./
+    ports:
+      - 80:80
